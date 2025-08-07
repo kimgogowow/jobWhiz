@@ -21,4 +21,47 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+# === Java / Spring Boot ===
+/target/
+/*.iml
+/.classpath
+/.project
+/.settings/
+/.idea/
+/*.log
+
+# === Maven ===
+/.mvn/
+/pom.xml.tag
+/pom.xml.releaseBackup
+/pom.xml.versionsBackup
+/logs/
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+.env
+.venv/
+.envrc
+
+# === Node.js / Lovable 前端 ===
+node_modules/
+dist/
+.vite/
+.env.local
+.env.development
+.env.production
+
+# === OS / Editor ===
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# === VSCode ===
+.vscode/
 replay_pid*
